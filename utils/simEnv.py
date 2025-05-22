@@ -125,7 +125,7 @@ class SimEnv(object):
         self.p.setGravity(0, 0, -10)  # Set gravity
         self.flags = self.p.URDF_ENABLE_CACHED_GRAPHICS_SHAPES
         self.gripperId = gripperId
-        self.buildShelfCabinet(with_side_walls=False)  # set to False to remove walls
+        self.buildShelfCabinet(with_side_walls=True)  # set to False to remove walls
 
         # Initialize camera
         self.movecamera(0, 0)
