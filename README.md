@@ -181,6 +181,7 @@ These lock randomness and simulation steps to enable fully deterministic outcome
 
 ## 📊 Results Snapshot (Shelf with Side Walls)
 
+![Demo](media/benchmark_run.gif)
 
 | Planner       | Success % | Mean planning time (s) | Mean playback time (s) | Smoothness ↑ | Min. clearance (m) | Extra RAM (MB) |
 | ------------- | --------- | ---------------------- | ---------------------- | ------------ | ------------------ | -------------- |
