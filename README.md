@@ -19,7 +19,7 @@ The benchmark measures *solver-only* runtime, success-rate, path smoothness, obs
 ## 🔄 Project Pipeline
 
 ```
-1. Scene Build          2. Pair Generation         3. Batch Benchmark        4. Analysis
+1. Scene Build          2. Pair Generation             3. Batch Benchmark              4. Analysis
 ┌──────────────┐        ┌───────────────────────┐     ┌──────────────────────────┐     ┌───────────────────┐
 │ simEnv.py    │ ➔      │ motion_test.py        │ ➔   │ benchmark_runner.py      │ ➔   │ Jupyter / Excel   │
 │ • shelf URDF │ saves  │ • collision-free IK   │     │ • five planners          │     │ visual charts     │
